@@ -3,6 +3,7 @@ import http from "http";
 import cors from 'cors'
 import { Server } from 'socket.io';
 import dotenv from 'dotenv';
+import connectDB from "./db.js";
 dotenv.config();
 
 const app = express();
@@ -33,5 +34,6 @@ server.listen(port, (err) => {
         console.log('Error to listen ChatterUp App');
     } else {
         console.log('ChatterUp App is running on port ' + port);
+        connectDB();
     }
 })
