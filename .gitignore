@@ -7,3 +7,5 @@ ProblemStatement.md
 .vscode
 
 node_modules
+
+.env
