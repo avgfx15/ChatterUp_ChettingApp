@@ -1,0 +1,18 @@
+{
+  "name": "chatting_app",
+  "version": "1.0.0",
+  "description": "Chatting App like whatsapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "Chatting",
+    "App",
+    "Real-time",
+    "chat"
+  ],
+  "author": "Stacodev",
+  "license": "ISC"
+}
