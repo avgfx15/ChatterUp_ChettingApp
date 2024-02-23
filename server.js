@@ -7,7 +7,15 @@ dotenv.config();
 
 const app = express();
 
+//// Cors policy
 app.use(cors());
+
+//// Get JSON Data
+app.use(express.json());
+
+////  Configure Static html File in public Folder with index.html
+app.use(express.static("public"));
+
 
 const server = http.createServer(app);
 
